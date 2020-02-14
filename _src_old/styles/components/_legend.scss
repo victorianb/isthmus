@@ -1,0 +1,32 @@
+.legend {
+  padding: 0 0 0 12px;
+  list-style: none;
+  margin: 0;
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+
+    .legend-circle {
+      width: 8px;
+      height: 8px;
+      margin-right: 8px;
+    }
+
+    .legend-text {
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+.legend-title {
+  margin-bottom: 8px;
+}
+
+.legend-block {
+  & + .legend-block {
+    margin-top: 16px;
+  }
+}
